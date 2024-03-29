@@ -24,6 +24,17 @@
 		6A4B7CF2EAE39BEC64C1769A /* Pods_BaseToolsModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D277A188B7BEF46335D9406 /* Pods_BaseToolsModule_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F1AF24D92BB66A6C00EF9BA7 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24C02BB66A6C00EF9BA7 /* MineViewController.m */; };
+		F1AF24DA2BB66A6C00EF9BA7 /* AppDebugBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24C32BB66A6C00EF9BA7 /* AppDebugBtn.m */; };
+		F1AF24DB2BB66A6C00EF9BA7 /* AppInitializeSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24C52BB66A6C00EF9BA7 /* AppInitializeSetting.m */; };
+		F1AF24DC2BB66A6C00EF9BA7 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24C72BB66A6C00EF9BA7 /* RootNavigationController.m */; };
+		F1AF24DD2BB66A6C00EF9BA7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24C92BB66A6C00EF9BA7 /* RootViewController.m */; };
+		F1AF24DE2BB66A6C00EF9BA7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24CB2BB66A6C00EF9BA7 /* HomeViewController.m */; };
+		F1AF24DF2BB66A6C00EF9BA7 /* CustomNetWorkRequestLog+LogDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24CD2BB66A6C00EF9BA7 /* CustomNetWorkRequestLog+LogDecode.m */; };
+		F1AF24E02BB66A6C00EF9BA7 /* CustomNetWorkResponseObject+RespDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24CF2BB66A6C00EF9BA7 /* CustomNetWorkResponseObject+RespDecode.m */; };
+		F1AF24E12BB66A6C00EF9BA7 /* NetRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24D12BB66A6C00EF9BA7 /* NetRequestConfig.m */; };
+		F1AF24E22BB66A6C00EF9BA7 /* NetURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24D32BB66A6C00EF9BA7 /* NetURLManager.m */; };
+		F1AF24E32BB66A6C00EF9BA7 /* NetURLManager+WebURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF24D52BB66A6C00EF9BA7 /* NetURLManager+WebURL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +49,8 @@
 
 /* Begin PBXFileReference section */
 		194F9954DC00479AAD951DD1 /* Pods-BaseToolsModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseToolsModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-BaseToolsModule_Example/Pods-BaseToolsModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4A98F071BC13DFE732845615 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5DABFCC63D889A68BA1DE2B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A98F071BC13DFE732845615 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5DABFCC63D889A68BA1DE2B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BaseToolsModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseToolsModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +77,30 @@
 		7DA6B98C27E9CB5600539D86 /* Pods-BaseToolsModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseToolsModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BaseToolsModule_Tests/Pods-BaseToolsModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0C9269F1BE4151932DCE0D9 /* Pods_BaseToolsModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseToolsModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D82324D7D66473FB52E2736E /* BaseToolsModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BaseToolsModule.podspec; path = ../BaseToolsModule.podspec; sourceTree = "<group>"; };
+		D82324D7D66473FB52E2736E /* BaseToolsModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BaseToolsModule.podspec; path = ../BaseToolsModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F1AF24C02BB66A6C00EF9BA7 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		F1AF24C12BB66A6C00EF9BA7 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		F1AF24C22BB66A6C00EF9BA7 /* AppDebugBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDebugBtn.h; sourceTree = "<group>"; };
+		F1AF24C32BB66A6C00EF9BA7 /* AppDebugBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDebugBtn.m; sourceTree = "<group>"; };
+		F1AF24C42BB66A6C00EF9BA7 /* AppInitializeSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInitializeSetting.h; sourceTree = "<group>"; };
+		F1AF24C52BB66A6C00EF9BA7 /* AppInitializeSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInitializeSetting.m; sourceTree = "<group>"; };
+		F1AF24C62BB66A6C00EF9BA7 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		F1AF24C72BB66A6C00EF9BA7 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		F1AF24C82BB66A6C00EF9BA7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F1AF24C92BB66A6C00EF9BA7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F1AF24CB2BB66A6C00EF9BA7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F1AF24CC2BB66A6C00EF9BA7 /* CustomNetWorkRequestLog+LogDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CustomNetWorkRequestLog+LogDecode.h"; sourceTree = "<group>"; };
+		F1AF24CD2BB66A6C00EF9BA7 /* CustomNetWorkRequestLog+LogDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CustomNetWorkRequestLog+LogDecode.m"; sourceTree = "<group>"; };
+		F1AF24CE2BB66A6C00EF9BA7 /* CustomNetWorkResponseObject+RespDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CustomNetWorkResponseObject+RespDecode.h"; sourceTree = "<group>"; };
+		F1AF24CF2BB66A6C00EF9BA7 /* CustomNetWorkResponseObject+RespDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CustomNetWorkResponseObject+RespDecode.m"; sourceTree = "<group>"; };
+		F1AF24D02BB66A6C00EF9BA7 /* NetRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetRequestConfig.h; sourceTree = "<group>"; };
+		F1AF24D12BB66A6C00EF9BA7 /* NetRequestConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestConfig.m; sourceTree = "<group>"; };
+		F1AF24D22BB66A6C00EF9BA7 /* NetURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetURLManager.h; sourceTree = "<group>"; };
+		F1AF24D32BB66A6C00EF9BA7 /* NetURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetURLManager.m; sourceTree = "<group>"; };
+		F1AF24D42BB66A6C00EF9BA7 /* NetURLManager+WebURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NetURLManager+WebURL.h"; sourceTree = "<group>"; };
+		F1AF24D52BB66A6C00EF9BA7 /* NetURLManager+WebURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NetURLManager+WebURL.m"; sourceTree = "<group>"; };
+		F1AF24D72BB66A6C00EF9BA7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F1AF24D82BB66A6C00EF9BA7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +166,15 @@
 		6003F593195388D20070C39A /* Example for BaseToolsModule */ = {
 			isa = PBXGroup;
 			children = (
+				F1AF24CA2BB66A6C00EF9BA7 /* Main */,
+				F1AF24D62BB66A6C00EF9BA7 /* NetRequest */,
 				6003F59C195388D20070C39A /* XYAppDelegate.h */,
 				6003F59D195388D20070C39A /* XYAppDelegate.m */,
+				F1AF24D82BB66A6C00EF9BA7 /* HomeViewController.h */,
+				F1AF24CB2BB66A6C00EF9BA7 /* HomeViewController.m */,
+				F1AF24C12BB66A6C00EF9BA7 /* MineViewController.h */,
+				F1AF24C02BB66A6C00EF9BA7 /* MineViewController.m */,
+				F1AF24D72BB66A6C00EF9BA7 /* PrefixHeader.pch */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* XYViewController.h */,
 				6003F5A6195388D20070C39A /* XYViewController.m */,
@@ -193,8 +234,39 @@
 				7DA6B98C27E9CB5600539D86 /* Pods-BaseToolsModule_Tests.debug.xcconfig */,
 				74CD8473FD7820498D84D9F0 /* Pods-BaseToolsModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1AF24CA2BB66A6C00EF9BA7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F1AF24C22BB66A6C00EF9BA7 /* AppDebugBtn.h */,
+				F1AF24C32BB66A6C00EF9BA7 /* AppDebugBtn.m */,
+				F1AF24C42BB66A6C00EF9BA7 /* AppInitializeSetting.h */,
+				F1AF24C52BB66A6C00EF9BA7 /* AppInitializeSetting.m */,
+				F1AF24C62BB66A6C00EF9BA7 /* RootNavigationController.h */,
+				F1AF24C72BB66A6C00EF9BA7 /* RootNavigationController.m */,
+				F1AF24C82BB66A6C00EF9BA7 /* RootViewController.h */,
+				F1AF24C92BB66A6C00EF9BA7 /* RootViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F1AF24D62BB66A6C00EF9BA7 /* NetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F1AF24CC2BB66A6C00EF9BA7 /* CustomNetWorkRequestLog+LogDecode.h */,
+				F1AF24CD2BB66A6C00EF9BA7 /* CustomNetWorkRequestLog+LogDecode.m */,
+				F1AF24CE2BB66A6C00EF9BA7 /* CustomNetWorkResponseObject+RespDecode.h */,
+				F1AF24CF2BB66A6C00EF9BA7 /* CustomNetWorkResponseObject+RespDecode.m */,
+				F1AF24D02BB66A6C00EF9BA7 /* NetRequestConfig.h */,
+				F1AF24D12BB66A6C00EF9BA7 /* NetRequestConfig.m */,
+				F1AF24D22BB66A6C00EF9BA7 /* NetURLManager.h */,
+				F1AF24D32BB66A6C00EF9BA7 /* NetURLManager.m */,
+				F1AF24D42BB66A6C00EF9BA7 /* NetURLManager+WebURL.h */,
+				F1AF24D52BB66A6C00EF9BA7 /* NetURLManager+WebURL.m */,
+			);
+			path = NetRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +299,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				0F8BF68BE27FBCB4CC379170 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +330,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,24 +368,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F8BF68BE27FBCB4CC379170 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BaseToolsModule_Tests/Pods-BaseToolsModule_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseToolsModule_Tests/Pods-BaseToolsModule_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		281A46041954E87DD76BB1A8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,11 +419,45 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BaseToolsModule_Example/Pods-BaseToolsModule_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/BaseToolsModule/BaseToolsModule.framework",
+				"${BUILT_PRODUCTS_DIR}/CustomNetWorking/CustomNetWorking.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/FuncControl/FuncControl.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MMKV/MMKV.framework",
+				"${BUILT_PRODUCTS_DIR}/MMKVCore/MMKVCore.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseToolsModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CustomNetWorking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FuncControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMKV.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMKVCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,9 +471,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AF24E32BB66A6C00EF9BA7 /* NetURLManager+WebURL.m in Sources */,
+				F1AF24DB2BB66A6C00EF9BA7 /* AppInitializeSetting.m in Sources */,
+				F1AF24E02BB66A6C00EF9BA7 /* CustomNetWorkResponseObject+RespDecode.m in Sources */,
+				F1AF24DF2BB66A6C00EF9BA7 /* CustomNetWorkRequestLog+LogDecode.m in Sources */,
 				6003F59E195388D20070C39A /* XYAppDelegate.m in Sources */,
+				F1AF24DD2BB66A6C00EF9BA7 /* RootViewController.m in Sources */,
+				F1AF24E22BB66A6C00EF9BA7 /* NetURLManager.m in Sources */,
+				F1AF24DC2BB66A6C00EF9BA7 /* RootNavigationController.m in Sources */,
 				6003F5A7195388D20070C39A /* XYViewController.m in Sources */,
+				F1AF24DE2BB66A6C00EF9BA7 /* HomeViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				F1AF24D92BB66A6C00EF9BA7 /* MineViewController.m in Sources */,
+				F1AF24DA2BB66A6C00EF9BA7 /* AppDebugBtn.m in Sources */,
+				F1AF24E12BB66A6C00EF9BA7 /* NetRequestConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BaseToolsModule/BaseToolsModule-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseToolsModule/PrefixHeader.pch";
 				INFOPLIST_FILE = "BaseToolsModule/BaseToolsModule-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -530,7 +629,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BaseToolsModule/BaseToolsModule-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseToolsModule/PrefixHeader.pch";
 				INFOPLIST_FILE = "BaseToolsModule/BaseToolsModule-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

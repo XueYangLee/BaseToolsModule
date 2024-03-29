@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BaseToolsModule'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BaseToolsModule.'
+  s.summary          = '基础组件库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                      base、category、tools
                        DESC
 
   s.homepage         = 'https://github.com/XueYangLee/BaseToolsModule'
@@ -30,13 +30,39 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'BaseToolsModule/Classes/**/*'
+  s.source_files = 'BaseToolsModule/Classes/**/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'BaseToolsModule' => ['BaseToolsModule/Assets/*.png']
-  # }
+  #  s.subspec 'Base' do |ss|
+  #      ss.source_files = 'BaseToolsModule/Classes/BaseToolsModule/Base/**/*.{h,m}'
+  #  end
+  #
+  #  s.subspec 'BaseTools' do |ss|
+  #      ss.source_files = 'BaseToolsModule/Classes/BaseToolsModule/BaseTools/**/*.{h,m}'
+  #  end
+  #
+  #  s.subspec 'Macro' do |ss|
+  #      ss.source_files = 'BaseToolsModule/Classes/BaseToolsModule/Macro/**/*.{h,m}'
+  #  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+     s.resource_bundles = {
+       'BaseToolsModule' => ['BaseToolsModule/Assets/**/*.*']
+     }
+
+    s.public_header_files = 'BaseToolsModule/Classes/**/*.h'
+    # s.frameworks = 'UIKit', 'MapKit'
+    s.dependency 'AFNetworking'
+    s.dependency 'CustomNetWorking'
+    s.dependency 'FuncControl'
+    s.dependency 'Masonry'
+    s.dependency 'MBProgressHUD'
+    s.dependency 'SVProgressHUD'
+    s.dependency 'SDWebImage'
+    s.dependency 'MJRefresh'
+    s.dependency 'YYModel'
+    s.dependency 'YYCategories'
+    s.dependency 'MMKV'
+    s.dependency 'DZNEmptyDataSet'
+    s.dependency 'SAMKeychain'
+    s.dependency 'IQKeyboardManager'
+    s.dependency 'ReactiveObjC'
 end
